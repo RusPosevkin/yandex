@@ -127,7 +127,6 @@
         return this;
     };
 
-
     /**
      * Add or remove one or more classes from each element
      * in the set of matched elements,

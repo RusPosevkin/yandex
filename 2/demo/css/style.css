@@ -1,0 +1,39 @@
+.base {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.first, .second, .third {
+    line-height: 14px;
+    min-height: 40px;
+}
+
+.item {
+    margin: 10px;
+}
+
+.red {
+    background-color: #F77F7F
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: rgb(145, 145, 243)
+}
+
+.circled {
+    border-radius: 100px;
+}
+
+.rounded {
+    border-radius: 50px;
+}
