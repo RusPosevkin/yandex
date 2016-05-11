@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Travel Cards Sorter Demo</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/data.js"></script>
+    <script src="js/demo.js"></script>
+    <script src="../travelCardsSorter.js"></script>
+</head>
+<body>
+    <div>
+        <select size="10" id="cards" name="cards[]">
+            <option disabled>Выберите один из наборов карточек</option>
+            <option value="defaultData">Стандартный набор</option>
+            <option value="dataWithCenterLoop">Набор с петлей в середине</option>
+            <option value="dataWithFinishLoop">Набор с петлей в конце</option>
+            <option value="dataWithStartLoop">Набор с петлей в начале</option>
+            <option value="loopedData">Замкнутый набор</option>
+            <option value="incorrectDataFormat">Некорректный формат данных (ошибка)</option>
+            <option value="omittedPoint">Пропущенные обязательные поля (ошибка)</option>
+            <option value="samePointsData">Точка отправления и прибытия одинаковые (ошибка)</option>
+            <option value="notChainData">Данные не образуют цепочку (ошибка)</option>
+       </select>
+    </div>
+    <h3>Исходный порядок карточек</h3>
+    <div class="source"></div>
+    <h3>Отсортированные карточки</h3>
+    <div class="sorted"></div>
+    <h3>Ошибки</h3>
+    <div class="errors"></div>
+</body>
+</html>
